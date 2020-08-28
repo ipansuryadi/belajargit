@@ -1,8 +1,8 @@
 void main() {
   var x = null;
   var checkBoxList = [
-    CheckBoxUIModel(checkBoxName: 'Modal', selected: false),
-    CheckBoxUIModel(checkBoxName: 'Belanja', selected: false),
+    CheckBoxUIModel(checkBoxName: 'Modalan', selected: false),
+    CheckBoxUIModel(checkBoxName: 'Belanjaan', selected: false),
     CheckBoxUIModel(checkBoxName: 'Peluang Usaha', selected: false),
   ];
   final list = convertStringToCheckBoxList(x, checkBoxList);
